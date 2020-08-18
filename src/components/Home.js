@@ -25,7 +25,7 @@ export default class Home extends React.Component {
         
         return(
             <div className='p-5'>
-                <div ref={div => this.box = div} className='bg-danger card moving-orange-box' style={{width:'100px', height:'100px', border: 'none'}}>
+                <div ref={div => this.box = div} className='bg-warning card moving-orange-box' style={{width:'100px', height:'100px', border: 'none'}}>
                 </div>
                 <br></br>
                 <button className='btn btn-danger float-left m-1' onClick={() => this.boxAnimation.play()}>Play</button>
