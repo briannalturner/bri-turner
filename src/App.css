@@ -39,7 +39,7 @@
 
 
 /* my css */
-.my-logo {
-  width: '30px';
-  height: '30px';
+
+.name-logo {
+  max-width: '200px';
 }
